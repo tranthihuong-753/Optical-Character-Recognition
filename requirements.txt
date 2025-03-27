@@ -1,0 +1,10 @@
+pip install opencv-python pytesseract easyocr pandas numpy
+    opencv-python: Xử lý ảnh.
+    pytesseract: OCR với Tesseract (cần cài Tesseract riêng, xem bên dưới).
+    easyocr: OCR dễ dùng, hỗ trợ tiếng Việt.
+    pandas: Xuất dữ liệu ra CSV/Excel.
+    numpy: Hỗ trợ xử lý ảnh.
+Download Tesseract OCR và thêm đường dẫn vào biến môi trường PATH.
+pip install fuzzywuzzy
+pip install python-Levenshtein
+https://github.com/tesseract-ocr/tessdata/blob/main/vie.traineddata
