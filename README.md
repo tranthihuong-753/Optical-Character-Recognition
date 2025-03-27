@@ -38,10 +38,12 @@ CÓ THỂ NÂNG CẤP
 Sử dụng KNN hoặc SVM để phân loại các mẫu hóa đơn khác nhau
 Decision Trees để phân loại các vùng text trên hóa đơn (tiêu đề, nội dung, tổng tiền)
 Logistic Regression để phân loại xem một vùng text có phải là số tiền hay không
+
 2. Học không giám sát (Unsupervised Learning):
 K-means clustering để nhóm các hóa đơn có format tương tự
 PCA để giảm chiều dữ liệu ảnh trước khi đưa vào OCR
 Anomaly Detection để phát hiện hóa đơn bất thường hoặc giả mạo
+
 3. Học tăng cường (Reinforcement Learning):
 Xây dựng agent để tối ưu hóa các tham số xử lý ảnh (độ sáng, độ tương phản)
 Tối ưu hóa việc lựa chọn vùng text quan trọng trên hóa đơn

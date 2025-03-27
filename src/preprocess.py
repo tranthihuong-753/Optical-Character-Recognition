@@ -37,3 +37,8 @@ if __name__ == "__main__":
     input_path = "data/invoices/img1.png"
     processed_path = preprocess_image(input_path, debug=True)
     print(f"Ảnh đã xử lý lưu tại: {processed_path}")
+
+def preprocess_image_ui(image):
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    thresh = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2)
+    return thresh
