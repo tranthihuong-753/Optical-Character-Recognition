@@ -1,21 +1,33 @@
 OCR Project
+
 📂 Cấu trúc thư mục
-css
-Copy
-Edit
+
 OCR/
+
 │── 📂 data/                # Thư mục chứa dữ liệu (hình ảnh, CSV, JSON,...)
+
 │── 📂 results/             # Lưu trữ kết quả đầu ra
+
 │── 📂 src/                 # Chứa mã nguồn chính của dự án
-│   │── 📜 train.py         # Huấn luyện mô hình
-│   │── 📜 predict.py       # Dự đoán với mô hình
-│   │── 📜 preprocess.py    # Tiền xử lý dữ liệu
-│   │── 📜 utils.py         # Các hàm hỗ trợ (hàm vẽ biểu đồ, đọc dữ liệu,...)
+
+│──│── 📜 train.py         # Huấn luyện mô hình
+
+│──│── 📜 predict.py       # Dự đoán với mô hình
+
+│──│── 📜 preprocess.py    # Tiền xử lý dữ liệu
+
+│──│── 📜 utils.py         # Các hàm hỗ trợ (hàm vẽ biểu đồ, đọc dữ liệu,...)
+
 │── 📜 requirements.txt     # Danh sách thư viện cần cài đặt
+
 │── 📜 main.py              # Chương trình chính chạy AI
+
 │── 📜 README.md            # Mô tả dự án, cách chạy
+
 │── 📜 .gitignore           # Loại trừ các file không cần thiết khi đẩy lên GitHub
+
 🚀 Tiến độ của dự án
+
 1. Tiền xử lý ảnh (Trong preprocess.py)
 Chuyển ảnh sang dạng grayscale
 
@@ -60,21 +72,20 @@ Xây dựng agent để tối ưu hóa các tham số xử lý ảnh (độ sán
 Tối ưu hóa việc lựa chọn các vùng văn bản quan trọng trên hóa đơn
 
 📋 Cài đặt
+
 Cài đặt các thư viện cần thiết: Chạy lệnh sau trong terminal:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 Chạy chương trình chính: Để chạy dự án, sử dụng lệnh:
 
-bash
-Copy
-Edit
 python main.py
+
 📚 Mô tả dự án
+
 Dự án này tập trung vào việc sử dụng các kỹ thuật OCR để nhận dạng văn bản từ hóa đơn, đặc biệt là hóa đơn tiếng Việt và tiếng Anh. Mục tiêu là phát triển một hệ thống có khả năng nhận diện thông tin từ hóa đơn một cách tự động và lưu trữ kết quả theo dạng có thể phân tích được. Dự án này sử dụng các kỹ thuật tiền xử lý ảnh, học máy và học sâu để tối ưu hóa quá trình nhận dạng.
 
 📝 Liên hệ
+
 Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ thêm, đừng ngần ngại liên hệ với tôi qua email: dhuongdhlt1@gmail.com
 
