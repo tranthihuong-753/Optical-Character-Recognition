@@ -11,11 +11,6 @@
 │── 📜 README.md            # Mô tả dự án, cách chạy
 │── 📜 .gitignore           # Loại trừ các file không cần thiết khi đẩy lên GitHub
 
-│── 📂 models/              # Lưu trữ mô hình đã huấn luyện
-│── 📂 notebooks/           # Chứa các file Jupyter Notebook (nếu cần)
-│── 📂 logs/                # Lưu trữ log của quá trình chạy mô hình
-│── 📂 tests/               # Chứa các tập tin kiểm thử
-
 TIẾN ĐỘ CỦA DỰ ÁN 
 1. Tiền xử lý ảnh (trong preprocess.py):
 Chuyển ảnh sang grayscale
